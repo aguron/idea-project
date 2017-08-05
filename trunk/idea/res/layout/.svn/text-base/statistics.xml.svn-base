@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/mainlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/statistics_bg"
+    android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TableLayout
+        android:layout_width="180dp"
+        android:layout_height="300dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="85dp" >
+
+        <Button
+            android:id="@+id/SThistory"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/statistics_history" />
+
+        <Button
+            android:id="@+id/STweight"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:background="@drawable/statistics_weight" />
+
+        <Button
+            android:id="@+id/STpersonalbest"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:background="@drawable/statistics_personalbest" />
+
+        <Button
+            android:id="@+id/STweighin"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:background="@drawable/statistics_weightin" />
+
+        <Button
+            android:id="@+id/STmain"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/statistics_mainmenu" />
+        
+    </TableLayout>
+    
+     <TextView
+        android:id="@+id/showweight"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:textColor="@color/white"
+        android:layout_weight="1"
+         />
+
+</RelativeLayout>

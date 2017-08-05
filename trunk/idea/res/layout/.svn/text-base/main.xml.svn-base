@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/MainIconTextRow"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainscreen_background"
+    android:orientation="vertical" >
+
+    <!-- Need to find a way to label the buttons -->
+    <!--
+        android:textSize="@dimen/main_button_text_size"
+        android:width="@dimen/main_button_height"
+        android:height="@dimen/main_button_height"
+        android:text="@string/WODBtn" />
+    -->
+
+    <TableRow
+        android:id="@+id/MainIconRow"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="181dp"
+        android:weightSum="8" >
+
+        <Button
+            android:id="@+id/MainWODsBtn"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="2"
+            android:background="@drawable/wod" />
+
+        <Button
+            android:id="@+id/MainhandBookBtn"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:layout_weight="2"
+            android:background="@drawable/handbook" />
+
+        <Button
+            android:id="@+id/MainstatisticBtn"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="22dp"
+            android:layout_weight="2"
+            android:background="@drawable/statistics" />
+    </TableRow>
+   
+</RelativeLayout>

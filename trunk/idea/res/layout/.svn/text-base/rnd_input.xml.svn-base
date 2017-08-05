@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content" android:layout_width="wrap_content"
+    android:background="#ffffffff" android:orientation="horizontal"
+    android:id="@+id/Rnd">
+    
+
+ <TextView
+     android:id="@+id/Rnd"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginLeft="10dp"
+     android:text="Number:"
+     android:textColor="@color/black"
+     android:textSize="16dp" />
+
+
+
+
+ <EditText
+     android:id="@+id/amrap_num"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:minWidth="150dip" android:numeric="integer"/>
+
+
+
+ <TextView
+     android:id="@+id/amrap_rnd"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginRight="10dp"
+     android:text="rounds"
+     android:textColor="@color/black"
+     android:textSize="16dp" />
+
+</LinearLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+   android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/handbook_ved_bg"
+    android:orientation="vertical" 
+    
+    >
+    
+    
+
+        <TableRow
+          android:id="@+id/HBnormalRow"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_alignParentBottom="true"
+          android:layout_alignParentLeft="true"
+          android:layout_margin="10dp"
+          android:layout_marginLeft="10dp"
+          android:weightSum="12" >
+
+
+
+          <Button
+              android:id="@+id/HBsaveBtn"
+              android:layout_width="80dp"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="8dp"
+              android:layout_weight="2"
+              android:background="@drawable/hb_save" />
+
+
+
+
+
+          <Button
+              android:id="@+id/HBdeleteBtn"
+              android:layout_width="80dp"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="25dp"
+              android:layout_weight="2"
+              android:background="@drawable/handbook_delete" />
+          
+
+
+
+
+          <Button
+              android:id="@+id/HBbackBtn"
+              android:layout_width="80dp"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="25dp"
+              android:layout_weight="2"
+              android:background="@drawable/hb_back" />
+
+      </TableRow>
+
+        <TextView
+            android:id="@+id/HB_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/HBnormalRow"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="70dp"
+            android:text="Title:"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/HB_filename"
+            android:layout_width="225dp"
+            android:layout_height="35dp"
+            android:layout_toRightOf="@+id/HB_title"
+            android:background="@null"
+            android:ems="10" android:textColor="@color/white" android:layout_marginTop="67dp"/>
+
+        <EditText
+            android:id="@+id/note_input"
+            android:gravity="top|left"
+            android:layout_width="280dp"
+            android:layout_height="280dp"
+            android:layout_above="@+id/HBnormalRow"
+            android:layout_below="@+id/HB_filename"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:background="@null" android:textColor="@color/white" android:layout_centerHorizontal="true">
+
+            <requestFocus />
+        </EditText>
+
+</RelativeLayout>

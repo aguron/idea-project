@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content" android:layout_width="wrap_content"
+    android:background="#ffffffff" android:orientation="horizontal"
+    android:id="@+id/weighin">
+    
+ <TextView
+     android:id="@+id/weighin"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginLeft="10dp"
+     android:text="Weight："
+     android:textColor="@color/black"
+     android:textSize="16dp" />
+
+ <EditText
+     android:id="@+id/STweighin"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:minWidth="150dip" android:numeric="integer|decimal"/>
+
+ <TextView
+     android:id="@+id/weighin"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginRight="10dp"
+     android:text="pound"
+     android:textColor="@color/black"
+     android:textSize="16dp" />
+
+</LinearLayout>

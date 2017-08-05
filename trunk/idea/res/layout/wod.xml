@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/timedwod_timer"
+    android:orientation="vertical" >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp" >
+
+        <Button
+            android:id="@+id/timed_resume"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="15dp"
+            android:layout_weight="2"
+            android:background="@drawable/resume" />
+
+        <Button
+            android:id="@+id/timed_done"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_margin="0dp"
+            android:layout_marginBottom="0dp"
+            android:layout_weight="2"
+            android:background="@drawable/done" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tableRow1"
+        android:layout_alignLeft="@+id/tableRow1"
+        android:layout_marginBottom="50dp" >
+
+        <Button
+            android:id="@+id/timed_start"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="14dp"
+            android:layout_weight="1"
+            android:background="@drawable/start" />
+
+        <Button
+            android:id="@+id/timed_pause"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="18dp"
+            android:layout_weight="2"
+            android:background="@drawable/pause" />
+
+    </TableRow>
+
+    <Chronometer
+        android:id="@+id/chronometer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tableRow2"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="20dp"
+        android:layout_weight="0"
+        android:paddingBottom="30dip"
+        android:paddingTop="30dip"
+        android:textColor="@color/white"
+        android:textSize="90dp"
+        android:textStyle="bold"
+        android:typeface="normal" />
+
+</RelativeLayout>

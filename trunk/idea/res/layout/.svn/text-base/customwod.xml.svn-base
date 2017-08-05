@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/customwod_bg"
+    android:orientation="vertical" >
+
+    <TableRow
+        android:id="@+id/CWnormalRow"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="10dp"
+        android:layout_marginLeft="10dp"
+        android:weightSum="12" >
+
+        <Button
+            android:id="@+id/CWdoneBtn"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="2"
+            android:background="@drawable/cw_done" />
+
+        <Button
+            android:id="@+id/CWbackBtn"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_weight="2"
+            android:background="@drawable/cw_back" />
+    </TableRow>
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="283dp"
+        android:layout_height="135dp"
+        android:layout_alignLeft="@+id/CWnormalRow"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="91dp"
+        android:drawSelectorOnTop="false" android:layout_centerHorizontal="true" android:layout_marginLeft="9dp">
+
+    </ListView>
+    
+     <TextView
+        android:id="@+id/chosenexercise_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/WODsbenchmarkRow"
+        android:layout_alignLeft="@android:id/list"
+        android:layout_alignRight="@android:id/list"
+        android:layout_below="@android:id/list"
+        android:layout_marginTop="40dp"
+        android:text=" " 
+        android:scrollbars="vertical" android:maxLines="10" android:textColor="@color/white"/>
+
+      <ListView
+          android:id="@+id/chosenexercise_listView"
+          android:layout_width="283dp"
+          android:layout_height="130dp"
+          android:layout_below="@+id/chosenexercise_TextView"
+          android:layout_centerHorizontal="true"
+          android:drawSelectorOnTop="false" android:layout_marginTop="8dp">
+
+      </ListView>
+
+</RelativeLayout>

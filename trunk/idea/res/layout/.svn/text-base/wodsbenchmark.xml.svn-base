@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/wodbenchmarklayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wodsbenchmark"
+    android:orientation="vertical">
+
+    <TableRow
+        android:id="@+id/WODsbenchmarkRow"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:weightSum="1" >
+
+        <Button
+            android:id="@+id/WODsbenchmarkStartBtn"
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/wodsbkstart" />
+
+        <Button
+            android:id="@+id/WODsBKbackBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="@drawable/backmain" />
+    </TableRow>
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="324dp"
+        android:layout_height="162dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginTop="86dp" >
+
+    </ListView>
+
+    <TextView
+        android:id="@+id/WODsTextView"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_above="@+id/WODsbenchmarkRow"
+        android:layout_alignLeft="@android:id/list"
+        android:maxLines="10"
+        android:scrollbars="vertical"
+        android:text=" " android:layout_marginTop="295dp" android:layout_marginRight="17dp" android:isScrollContainer="true" android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@android:id/list"
+        android:layout_marginTop="61dp"
+        android:text="Please type name to search"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="16dp" android:textColor="@color/black"/>
+
+</RelativeLayout>

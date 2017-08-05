@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/customize_wod_bg"
+    android:orientation="vertical" >
+
+     <TextView
+        android:id="@+id/chosenexercise_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/WODsbenchmarkRow"
+        android:layout_alignLeft="@android:id/list"
+        android:layout_alignRight="@android:id/list"
+        android:layout_below="@android:id/list"
+        android:layout_marginTop="50dp"
+        android:text=" " 
+        android:scrollbars="vertical" 
+        android:maxLines="15"/>
+
+     <TableRow
+         android:id="@+id/tableRow1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_centerHorizontal="true"
+         android:layout_marginBottom="130dp" >
+
+         <Button
+             android:id="@+id/CWdoneBtn"
+             android:layout_width="100dp"
+             android:layout_height="40dp"
+             android:layout_weight="2"
+             android:background="@drawable/cw_done" />
+
+         <Button
+             android:id="@+id/CWbackBtn"
+             android:layout_width="100dp"
+             android:layout_height="40dp"
+             android:layout_marginLeft="20dp"
+             android:layout_weight="2"
+             android:background="@drawable/cw_back" />
+     </TableRow>
+
+      <EditText
+          android:id="@+id/CWexercise_num"
+          android:layout_width="220dp"
+          android:layout_height="35dp"
+          android:layout_above="@+id/tableRow1"
+          android:layout_alignLeft="@+id/tableRow1"
+          android:layout_alignRight="@+id/CWexercise_num"
+          android:layout_marginBottom="72dp"
+          android:layout_marginLeft="24dp"
+          android:minWidth="185dip"
+          android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/exercise_desciption"
+            android:layout_width="290dp"
+            android:layout_height="100dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/chosenexercise_TextView"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="24dp"
+            android:text="TextView" android:layout_marginRight="18dp" android:textColor="@color/white"/>
+
+        <EditText
+            android:id="@+id/CWexercise_unit"
+            android:layout_width="205dp"
+            android:layout_height="35dp"
+            android:layout_above="@+id/tableRow1"
+            android:layout_alignLeft="@+id/CWexercise_num"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp"
+            android:minWidth="185dip"
+            android:textSize="16dp" />
+
+        <EditText
+            android:id="@+id/CWexercise_weight"
+            android:layout_width="180dp"
+            android:layout_height="35dp"
+            android:layout_above="@+id/CWexercise_unit"
+            android:layout_alignRight="@+id/CWexercise_num"
+            android:layout_marginBottom="-3dp"
+            android:ems="10"
+            android:minWidth="135dip"
+            android:textSize="16dp" />
+
+</RelativeLayout>

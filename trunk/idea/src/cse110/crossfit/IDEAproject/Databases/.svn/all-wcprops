@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/161/trunk/idea/src/cse110/crossfit/IDEAproject/Databases
+END
+databaseHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/161/trunk/idea/src/cse110/crossfit/IDEAproject/Databases/databaseHelper.java
+END
+DataManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/155/trunk/idea/src/cse110/crossfit/IDEAproject/Databases/DataManager.java
+END
+DataAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/155/trunk/idea/src/cse110/crossfit/IDEAproject/Databases/DataAction.java
+END
+DataDispatch.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/155/trunk/idea/src/cse110/crossfit/IDEAproject/Databases/DataDispatch.java
+END
+DataForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/155/trunk/idea/src/cse110/crossfit/IDEAproject/Databases/DataForm.java
+END
+DataDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/155/trunk/idea/src/cse110/crossfit/IDEAproject/Databases/DataDAO.java
+END

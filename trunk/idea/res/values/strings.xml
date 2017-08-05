@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+   
+    <string name="app_name">CrossTrack</string>
+    <string name="crossfit"></string>
+    <string name="WODBtn">W.O.D</string>
+    <string name="title">Crossfit</string>
+    <string name="groupName">IDEA</string>
+    <string name="back">back</string>
+    <string name="display">display</string>
+    <string name="custom">custom</string>
+    <string name="HBtitle">HandBook</string>
+    <string name="PBtitle">Personal Best</string>
+    <string name="STtitle">Statistics</string>
+    <string name="CWtitle">Custom WOD</string>
+    <string name="WODtitle">WODs</string>
+    <string name="Heroes">Heroes</string>
+    <string name="Others">Others</string>
+    <string name="Girls">Girls</string>    
+   
+    <string-array name="countries_array">
+        <item>Bahrain</item>
+        <item>Bangladesh</item>
+        <item>Barbados</item>
+        <item>Belarus</item>
+        <item>Belgium</item>
+        <item>Belize</item>
+        <item>Benin</item>
+    </string-array>
+    
+    <string-array name="benchmark_array">
+        <item>Angie</item>
+        <item>Barbara</item>
+        <item>Chelsea</item>
+        <item>Cindy</item>
+        <item>Diane</item>
+        <item>Elizabeth</item>
+        <item>Fran</item>
+        <item>Grace</item>
+        <item>Helen</item>
+        <item>Isabel</item>
+        <item>Jackie</item>
+        <item>Karen</item>
+        <item>Linda</item>
+        <item>Mary</item>
+        <item>Nancy</item>
+        <item>Annie</item>
+        <item>Eva</item>
+        <item>Kelly</item>
+        <item>Lynne</item>
+        <item>Nicole</item>
+        <item>Amanda</item>
+        <item>JT</item>
+        <item>Michael</item>
+        <item>Murph</item>
+        <item>Daniel</item>
+        <item>Josh</item>
+        <item>Jason</item>
+        <item>Badger</item>
+        <item>Joshie</item>
+        <item>Nate</item>
+        <item>Randy</item>
+        <item>Tommy V</item>
+        <item>Griff</item>
+        <item>Ryan</item>
+        <item>Erin</item>
+        <item>Mr. Joshua</item>
+        <item>DT</item>
+        <item>Danny</item>
+        <item>Hansen</item>
+        <item>Tyler</item>
+        <item>Lumberjack 20</item>
+        <item>Stephen</item>
+        <item>Garrett</item>
+        <item>War Frank</item>
+        <item>McGhee</item>
+        <item>Paul</item>
+        <item>Jerry</item>
+        <item>Nutts</item>
+        <item>Arnie</item>
+        <item>The Seven</item>
+        <item>RJ</item>
+        <item>Luce</item>
+        <item>Johnson</item>
+        <item>Roy</item>
+        <item>AdamBrown</item>
+        <item>Coe</item>
+        <item>Severin</item>
+        <item>Helton</item>
+        <item>Jack</item>
+        <item>Forrest</item>
+        <item>Bulger</item>
+        <item>Brenton</item>
+        <item>Blake</item>
+        <item>Colin</item>
+        <item>Thompson</item>
+        <item>Whitten</item>
+        <item>Bull</item>
+        <item>Rankel</item>
+        <item>Holbrook</item>
+        <item>Ledesma</item>
+        <item>Wittman</item>
+        <item>McCluskey</item>
+        <item>Weaver</item>
+        <item>Abbate</item>
+        <item>Hammer</item>
+        <item>Moore</item>
+        <item>Wilmot</item>
+        <item>Moon</item>
+        <item>Small</item>
+        <item>Morrison</item>
+        <item>Manion</item>
+        <item>Gator</item>
+        <item>Bradley</item>
+        <item>Meadows</item>
+        <item>Santiago</item>
+        <item>Carse</item>
+        <item>Bradshaw</item>
+        <item>White</item>
+        <item>Santora</item>
+        <item>Wood</item>
+        <item>Hidalgo</item>
+        <item>Ricky</item>
+        <item>Dae Han</item>
+        <item>Desforges</item>
+        <item>Rahoi</item>
+        <item>Zimmerman</item>
+        <item>Klepto</item>
+        <item>Pheezy</item>
+        <item>J.J.</item>
+        <item>Jag 28</item>
+        <item>Brian</item>
+        <item>Fight Gone Bad</item>
+        <item>Tabatha This</item>
+        <item>Tabatha Something Else</item>
+        <item>Jonesworhty</item>
+        <item>Crossfit Total</item>
+        <item>Nasty Girls</item>
+        <item>Twins</item>
+        <item>Filthy Fifty</item>
+        <item>The Bear</item>
+    </string-array>  
+    
+    
+    
+    
+    
+    <!-- Main cutsom width/height/etc -->
+    
+    
+    
+    
+   
+</resources>
